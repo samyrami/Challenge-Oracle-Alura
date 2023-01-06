@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style-text-encryptor.css">
+    <title>Text Encryptor</title>
+</head>
+<body>
+  <h1 class="title">TEXT ENCRYPTOR</h1>
+    <div id="app">
+        <div class="textarea-container">
+          <textarea name="text" id="enDecryptText" placeholder="Enter Text" cols="30" rows="10"></textarea>
+          <input type="submit" class="encrypt submit" value="Encrypt">
+          <input type="submit" class="decrypt submit" value="Decrypt">
+        </div>
+        <div class="textarea-container">
+          <textarea name="Text" id="textContainer" cols="30" rows="10"></textarea>
+          <button id="copy" onclick="copyButton()">COPY</button>
+        </div>
+      </div>
+      
+    <script src="script-text-encryptor.js"></script>
+</body>
+</html>
